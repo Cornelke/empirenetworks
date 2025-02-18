@@ -1,0 +1,19 @@
+{
+  "name": "empire-networks",
+  "version": "1.0.0",
+  "description": "This is a simple one-page website project called \"Empire Networks\". It includes HTML, CSS, SCSS, and JavaScript/jQuery.This is best used for small design agencies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "emailjs-com": "^3.2.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^18.1.0"
+  }
+}
