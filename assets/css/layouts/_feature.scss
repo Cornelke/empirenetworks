@@ -1,0 +1,44 @@
+.feature-area {
+  background-color: #f2f2f2;
+  position: relative;
+  &:after {
+    position: absolute;
+    content: "";
+    background-image: url("../../assets/img/features/feature-1.jpg");
+    width: 50%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+  }
+  &:before {
+    position: absolute;
+    content: "";
+    background-color: #333;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    opacity: 0.75;
+    z-index: 2;
+  }
+  .feature {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 5%;
+    .features-box {
+      display: grid;
+      grid-template-columns: repeat(2, 48%);
+      grid-gap: 30px;
+      .single-feature {
+        margin-bottom: 30px;
+        h4 {
+          text-transform: capitalize;
+          margin: 10px 0;
+        }
+      }
+    }
+  }
+}

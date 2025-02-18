@@ -1,0 +1,10 @@
+.partner-area {
+  background-color: #f2f2f2;
+  .partner {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    img {
+      max-width: 140px;
+    }
+  }
+}

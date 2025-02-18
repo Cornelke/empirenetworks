@@ -1,0 +1,18 @@
+.video-area {
+  @include bg;
+  .video {
+    color: #fff;
+    width: 600px;
+    margin: 0 auto;
+    a {
+      color: #fff;
+      font-size: 60px;
+    }
+    h4 {
+      text-transform: uppercase;
+      font-weight: 800;
+      font-size: 55px;
+      margin: 40px 0;
+    }
+  }
+}

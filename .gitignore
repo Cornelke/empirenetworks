@@ -1,0 +1,8 @@
+# Node modules
+node_modules/
+
+# Local environment variables file (for local development only)
+.env
+
+# Netlify CLI local configuration files
+.netlify/

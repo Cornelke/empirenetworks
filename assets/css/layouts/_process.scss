@@ -1,0 +1,35 @@
+.process-area {
+  @include bg;
+  color: #fff;
+  .process {
+    display: grid;
+    grid-template-columns: repeat(4, 24%);
+    column-gap: 50px;
+    .single-process {
+      h4 {
+        position: relative;
+        background-color: #ff7720;
+        padding: 10px;
+        text-transform: capitalize;
+        font-size: 20px;
+        border-radius: 5px;
+        margin-left: 25px;
+        span {
+          //   content: "";
+          position: absolute;
+          top: 50%;
+          right: -60px; // Adjust this value to control the position of the arrow
+          transform: translateY(-50%);
+          height: 0;
+          border-top: 40px solid transparent;
+          border-left: 80px solid tomato;
+          border-bottom: 40px solid transparent;
+        }
+      }
+      p {
+        text-align: center;
+        margin-top: 20px;
+      }
+    }
+  }
+}
